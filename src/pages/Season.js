@@ -5,7 +5,7 @@ const Season = () => {
   console.log("params", year);
   return (
     <div>
-      Enter {year}
+      Season {year}
     </div>
   );
 }
