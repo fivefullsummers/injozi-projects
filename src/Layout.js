@@ -4,10 +4,11 @@ import Navigation from "./components/Navigation";
 const Layout = () => {
   return (
     <>
-      <div className="flex flex-row">
+      <div className="flex flex-row gap-5">
         <Navigation />
+        <Outlet />
       </div>
-      <Outlet />
+      
     </>
   );
 }

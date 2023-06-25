@@ -5,7 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { QueryClient, QueryClientProvider } from "react-query";
 
-const queryClient = new QueryClient();
+const queryConfig = {
+  queries: {
+    useErrorBoundary: true,
+    refetchOnWindowFocus: false,
+    retry: false,
+  },
+};
+
+const queryClient = new QueryClient({ defaultOptions: queryConfig});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
