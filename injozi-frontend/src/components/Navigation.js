@@ -58,7 +58,7 @@ const Navigation = () => {
   }
 
   return (
-    <nav className="w-56 flex flex-col relative mt-[-15px]">
+    <nav className="w-56 flex flex-col relative mt-[-15px] pl-5">
       <div className="">
         <div className="picker">
           <div className="picker-window"></div>
