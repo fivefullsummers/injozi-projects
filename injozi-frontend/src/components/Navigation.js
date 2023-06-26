@@ -58,9 +58,8 @@ const Navigation = () => {
   }
 
   return (
-    <nav className="w-56 h-[100vh] mt-10 flex flex-col relative">
-      <div className="fixed left-4 top-10 mt-10">
-        <p className="font-semibold text-large">Seasons</p>
+    <nav className="w-56 flex flex-col relative mt-[-15px] pl-5">
+      <div className="">
         <div className="picker">
           <div className="picker-window"></div>
           <div className="triangle"></div>

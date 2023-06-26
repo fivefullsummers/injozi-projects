@@ -89,15 +89,15 @@ const Season = () => {
   //console.log("data", data[0].Results[0]);
 
   return (
-    <div className="flex flex-col w-full h-full pt-5 pb-20 px-5 bg-neutral-200 justify-center">
+    <div className="flex flex-col pt-5 pb-20 px-5 bg-neutral-200 justify-center">
       <h1 className="font-semibold text-lg">{year} Season</h1>
-      <div className="aspect-square grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 p-2 gap-4 ">
+      <div className="aspect-square grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 p-2 gap-4 ">
         {!isLoading &&
           data.map((winner, index) => {
             return (
               <div
                 key={index}
-                className="card w-46 h-full bg-neutral-100 shadow-xl rounded-md"
+                className="card w-fit max-w-[215px] min-w-[260px] bg-neutral-100 shadow-xl rounded-md overflow-hidden"
               >
                 <figure className="block overflow-hidden h-[60%]">
                   <img
