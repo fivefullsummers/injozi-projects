@@ -7,7 +7,7 @@ import Season from "./pages/Season";
 
 function App() {
   return (
-    <div className="App base-100 p-0 m-0">
+    <div className="App base-100 p-0 m-0 overflow-hidden">
       <Router>
         <Routes>
           <Route path="/" element={<Layout />}>
