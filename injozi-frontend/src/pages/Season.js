@@ -97,7 +97,7 @@ const Season = () => {
             return (
               <div
                 key={index}
-                className="card w-fit min-w-fit max-w-xl bg-neutral-100 shadow-xl rounded-md overflow-hidden"
+                className="card w-80 min-w-fit max-w-xl bg-neutral-100 shadow-xl rounded-md overflow-hidden"
               >
                 <figure className="block overflow-hidden h-[60%]">
                   <img
